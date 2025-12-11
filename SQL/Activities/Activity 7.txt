@@ -1,0 +1,11 @@
+--activity 7 
+
+select SUM(purchase_amount) as "Total Sum" from orders;
+
+select avg(purchase_amount) as "Avg of orders" from orders;
+
+select max(purchase_amount) as "Maximum orders" from orders;
+
+select min(purchase_amount) as "Min orders" from orders;
+
+select COUNT(distinct salesman_id) AS "Total count" from orders;
